@@ -11,19 +11,43 @@
 		A64C9A5021949005001E419D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C9A4F21949005001E419D /* ViewController.swift */; };
 		A64C9A5321949005001E419D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64C9A5121949005001E419D /* Main.storyboard */; };
 		A64C9A5621949005001E419D /* ConastiAppv1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A64C9A5421949005001E419D /* ConastiAppv1.xcdatamodeld */; };
-		A64C9A5821949005001E419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64C9A5721949005001E419D /* Assets.xcassets */; };
+		A64C9A5821949005001E419D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64C9A5721949005001E419D /* Images.xcassets */; };
 		A64C9A5B21949005001E419D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64C9A5921949005001E419D /* LaunchScreen.storyboard */; };
+		A64C9A63219491F7001E419D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A64C9A62219491F7001E419D /* GoogleService-Info.plist */; };
+		A6A0E3CD2194A3FE0031C4F4 /* Icon-v1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A0E3CA2194A3FD0031C4F4 /* Icon-v1.png */; };
+		A6A0E3CE2194A3FE0031C4F4 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A0E3CB2194A3FE0031C4F4 /* title.png */; };
+		A6A0E3CF2194A3FE0031C4F4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6A0E3CC2194A3FE0031C4F4 /* background.jpg */; };
+		A6A0E3D12194ACAD0031C4F4 /* icon_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A0E3D02194ACAD0031C4F4 /* icon_facebook.png */; };
+		A6A0E3D321950ADD0031C4F4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A0E3D221950ADD0031C4F4 /* MenuViewController.swift */; };
+		A6A0E3D821950D400031C4F4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A0E3D721950D400031C4F4 /* BaseViewController.swift */; };
+		A6CF13F32194942B0034F3DF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF13F22194942B0034F3DF /* DashboardViewController.swift */; };
+		A6E19A642195E57B004EF48C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E19A632195E57B004EF48C /* PerfilViewController.swift */; };
+		A6F6D3B0219F17FD006C035D /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6D3AF219F17FD006C035D /* FavoritosViewController.swift */; };
+		B029A0D6746F376D3C9966FD /* Pods_ConastiAppv1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E164FDD2964A76D67E6723 /* Pods_ConastiAppv1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37A07C473A2B3866E68BD249 /* Pods-ConastiAppv1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConastiAppv1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConastiAppv1/Pods-ConastiAppv1.debug.xcconfig"; sourceTree = "<group>"; };
+		7B24A918CE0C010319F7BD37 /* Pods-ConastiAppv1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConastiAppv1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConastiAppv1/Pods-ConastiAppv1.release.xcconfig"; sourceTree = "<group>"; };
 		A64C9A4A21949005001E419D /* ConastiAppv1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConastiAppv1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64C9A4D21949005001E419D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64C9A4F21949005001E419D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A64C9A5221949005001E419D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A64C9A5521949005001E419D /* ConastiAppv1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConastiAppv1.xcdatamodel; sourceTree = "<group>"; };
-		A64C9A5721949005001E419D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64C9A5721949005001E419D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A64C9A5A21949005001E419D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64C9A5C21949005001E419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64C9A62219491F7001E419D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6A0E3CA2194A3FD0031C4F4 /* Icon-v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-v1.png"; sourceTree = "<group>"; };
+		A6A0E3CB2194A3FE0031C4F4 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		A6A0E3CC2194A3FE0031C4F4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		A6A0E3D02194ACAD0031C4F4 /* icon_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_facebook.png; sourceTree = SOURCE_ROOT; };
+		A6A0E3D221950ADD0031C4F4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A6A0E3D721950D400031C4F4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A6CF13F22194942B0034F3DF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		A6E19A632195E57B004EF48C /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		A6F6D3AF219F17FD006C035D /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
+		D3E164FDD2964A76D67E6723 /* Pods_ConastiAppv1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConastiAppv1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B029A0D6746F376D3C9966FD /* Pods_ConastiAppv1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				A64C9A4C21949005001E419D /* ConastiAppv1 */,
 				A64C9A4B21949005001E419D /* Products */,
+				F58A665A32978A558DF45024 /* Pods */,
+				AE2BE5D82CB09895104A4B31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,58 @@
 		A64C9A4C21949005001E419D /* ConastiAppv1 */ = {
 			isa = PBXGroup;
 			children = (
+				A6A0E3D621950D170031C4F4 /* ViewControllers */,
+				A6A0E3CC2194A3FE0031C4F4 /* background.jpg */,
+				A6A0E3CA2194A3FD0031C4F4 /* Icon-v1.png */,
+				A6A0E3C92194A3DE0031C4F4 /* Imagenes */,
+				A64C9A62219491F7001E419D /* GoogleService-Info.plist */,
 				A64C9A4D21949005001E419D /* AppDelegate.swift */,
-				A64C9A4F21949005001E419D /* ViewController.swift */,
 				A64C9A5121949005001E419D /* Main.storyboard */,
-				A64C9A5721949005001E419D /* Assets.xcassets */,
+				A64C9A5721949005001E419D /* Images.xcassets */,
 				A64C9A5921949005001E419D /* LaunchScreen.storyboard */,
 				A64C9A5C21949005001E419D /* Info.plist */,
 				A64C9A5421949005001E419D /* ConastiAppv1.xcdatamodeld */,
 			);
 			path = ConastiAppv1;
+			sourceTree = "<group>";
+		};
+		A6A0E3C92194A3DE0031C4F4 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0E3D02194ACAD0031C4F4 /* icon_facebook.png */,
+				A6A0E3CB2194A3FE0031C4F4 /* title.png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		A6A0E3D621950D170031C4F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A64C9A4F21949005001E419D /* ViewController.swift */,
+				A6A0E3D221950ADD0031C4F4 /* MenuViewController.swift */,
+				A6CF13F22194942B0034F3DF /* DashboardViewController.swift */,
+				A6A0E3D721950D400031C4F4 /* BaseViewController.swift */,
+				A6E19A632195E57B004EF48C /* PerfilViewController.swift */,
+				A6F6D3AF219F17FD006C035D /* FavoritosViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE2BE5D82CB09895104A4B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E164FDD2964A76D67E6723 /* Pods_ConastiAppv1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F58A665A32978A558DF45024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A07C473A2B3866E68BD249 /* Pods-ConastiAppv1.debug.xcconfig */,
+				7B24A918CE0C010319F7BD37 /* Pods-ConastiAppv1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A64C9A5F21949005001E419D /* Build configuration list for PBXNativeTarget "ConastiAppv1" */;
 			buildPhases = (
+				9AD02EC1AE49A3C9C6A624C7 /* [CP] Check Pods Manifest.lock */,
 				A64C9A4621949004001E419D /* Sources */,
 				A64C9A4721949004001E419D /* Frameworks */,
 				A64C9A4821949004001E419D /* Resources */,
+				E888B46814E495D3E3BA530A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,12 +199,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64C9A5B21949005001E419D /* LaunchScreen.storyboard in Resources */,
-				A64C9A5821949005001E419D /* Assets.xcassets in Resources */,
+				A6A0E3CD2194A3FE0031C4F4 /* Icon-v1.png in Resources */,
+				A6A0E3CF2194A3FE0031C4F4 /* background.jpg in Resources */,
+				A6A0E3CE2194A3FE0031C4F4 /* title.png in Resources */,
+				A64C9A63219491F7001E419D /* GoogleService-Info.plist in Resources */,
+				A64C9A5821949005001E419D /* Images.xcassets in Resources */,
+				A6A0E3D12194ACAD0031C4F4 /* icon_facebook.png in Resources */,
 				A64C9A5321949005001E419D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AD02EC1AE49A3C9C6A624C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConastiAppv1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E888B46814E495D3E3BA530A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConastiAppv1/Pods-ConastiAppv1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConastiAppv1/Pods-ConastiAppv1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A64C9A4621949004001E419D /* Sources */ = {
@@ -140,8 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64C9A5621949005001E419D /* ConastiAppv1.xcdatamodeld in Sources */,
+				A6A0E3D321950ADD0031C4F4 /* MenuViewController.swift in Sources */,
 				A64C9A5021949005001E419D /* ViewController.swift in Sources */,
 				A64C9A4E21949005001E419D /* AppDelegate.swift in Sources */,
+				A6F6D3B0219F17FD006C035D /* FavoritosViewController.swift in Sources */,
+				A6CF13F32194942B0034F3DF /* DashboardViewController.swift in Sources */,
+				A6E19A642195E57B004EF48C /* PerfilViewController.swift in Sources */,
+				A6A0E3D821950D400031C4F4 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +409,15 @@
 		};
 		A64C9A6021949005001E419D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A07C473A2B3866E68BD249 /* Pods-ConastiAppv1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59KRGYPPS4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ConastiAppv1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ConastiAppv1;
@@ -291,10 +429,15 @@
 		};
 		A64C9A6121949005001E419D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B24A918CE0C010319F7BD37 /* Pods-ConastiAppv1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59KRGYPPS4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ConastiAppv1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ConastiAppv1;
