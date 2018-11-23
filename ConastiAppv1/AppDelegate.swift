@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     //Facebook Login
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         return FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+        
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

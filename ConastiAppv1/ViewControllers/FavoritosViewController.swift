@@ -14,10 +14,9 @@ class FavoritosViewController: BaseViewController{
         super.viewDidLoad()
         addSlideMenuButton()
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "background.jpg")
         backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
         self.view.insertSubview(backgroundImage, at: 0)
-       
+       backgroundImage.backgroundColor = UIColor.white
     }
 
    

@@ -6,10 +6,17 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="MarkerFeltThin.ttf">
+            <string>MarkerFelt-Thin</string>
+        </array>
+        <array key="Noteworthy.ttc">
+            <string>Noteworthy-Light</string>
+        </array>
         <array key="Thonburi.ttc">
             <string>Thonburi-Bold</string>
         </array>
@@ -176,8 +183,34 @@
                     <view key="view" contentMode="scaleToFill" id="1ke-U2-4N2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kH1-mF-8nC">
+                                <rect key="frame" x="16" y="81" width="343" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No tiene notificaciones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5y-Wf-WTh">
+                                        <rect key="frame" x="60" y="45" width="223" height="38.5"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.82654857635498047" green="0.95799988508224487" blue="0.92117965221405029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="p5y-Wf-WTh" firstAttribute="leading" secondItem="kH1-mF-8nC" secondAttribute="leading" constant="60" id="QXG-rN-XBh"/>
+                                    <constraint firstItem="p5y-Wf-WTh" firstAttribute="centerX" secondItem="kH1-mF-8nC" secondAttribute="centerX" id="ZBt-g0-SjS"/>
+                                    <constraint firstItem="p5y-Wf-WTh" firstAttribute="centerY" secondItem="kH1-mF-8nC" secondAttribute="centerY" id="d5j-TV-dNl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="kH1-mF-8nC" firstAttribute="leading" secondItem="1ke-U2-4N2" secondAttribute="leadingMargin" id="9pz-h5-hiE"/>
+                            <constraint firstItem="h8H-Kc-Egb" firstAttribute="bottom" secondItem="kH1-mF-8nC" secondAttribute="bottom" constant="458" id="GWN-to-VJD"/>
+                            <constraint firstItem="kH1-mF-8nC" firstAttribute="top" secondItem="h8H-Kc-Egb" secondAttribute="top" constant="17" id="KMv-gs-oH6"/>
+                            <constraint firstItem="kH1-mF-8nC" firstAttribute="trailing" secondItem="1ke-U2-4N2" secondAttribute="trailingMargin" id="vD4-pt-crk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h8H-Kc-Egb"/>
                     </view>
                     <navigationItem key="navigationItem" title="Conasti App" id="V93-Er-YvS">
@@ -194,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5rV-xM-BV9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1401" y="108"/>
+            <point key="canvasLocation" x="1400.8" y="107.49625187406298"/>
         </scene>
         <!--Favoritos-->
         <scene sceneID="WQT-89-vKI">
@@ -203,14 +236,41 @@
                     <view key="view" contentMode="scaleToFill" id="1w0-W6-dXW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-xY-n9d">
+                                <rect key="frame" x="16" y="89" width="343" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No tiene favoritos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0o-eL-OdS">
+                                        <rect key="frame" x="102" y="47" width="139" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="139" id="XCP-lw-ByX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.82654857635498047" green="0.95799988508224487" blue="0.92117965221405029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="E0o-eL-OdS" firstAttribute="centerX" secondItem="4ha-xY-n9d" secondAttribute="centerX" id="2fQ-Gg-WHq"/>
+                                    <constraint firstItem="E0o-eL-OdS" firstAttribute="centerY" secondItem="4ha-xY-n9d" secondAttribute="centerY" id="EKe-mU-NvG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4ha-xY-n9d" firstAttribute="trailing" secondItem="1w0-W6-dXW" secondAttribute="trailingMargin" id="Hjz-mj-Gpc"/>
+                            <constraint firstItem="4ha-xY-n9d" firstAttribute="top" secondItem="edH-XU-8st" secondAttribute="top" constant="25" id="IPN-1G-i1g"/>
+                            <constraint firstItem="edH-XU-8st" firstAttribute="bottom" secondItem="4ha-xY-n9d" secondAttribute="bottom" constant="450" id="Nbs-yS-Kwq"/>
+                            <constraint firstItem="4ha-xY-n9d" firstAttribute="leading" secondItem="1w0-W6-dXW" secondAttribute="leadingMargin" id="kEu-XU-ocO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="edH-XU-8st"/>
                     </view>
                     <navigationItem key="navigationItem" title="Favoritos" id="rCv-dO-gbg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NnB-m1-F4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2310" y="-590"/>
+            <point key="canvasLocation" x="2309.5999999999999" y="-590.55472263868069"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="T6G-3d-7qn">
@@ -219,16 +279,52 @@
                     <view key="view" contentMode="scaleToFill" id="Mu9-xe-g8n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo del usuario" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WK-zg-mhN">
+                                <rect key="frame" x="119" y="210" width="138.5" height="21"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de usuario" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmc-BI-vLI">
+                                <rect key="frame" x="20" y="84" width="175" height="101"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uLv-gG-04U">
+                                <rect key="frame" x="235" y="84" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5la-sr-TJO"/>
+                                    <constraint firstAttribute="width" constant="100" id="JkE-sL-lUu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration" label="dsafs"/>
+                        <constraints>
+                            <constraint firstItem="uLv-gG-04U" firstAttribute="leading" secondItem="Jmc-BI-vLI" secondAttribute="trailing" constant="40" id="9yL-dU-2Kb"/>
+                            <constraint firstItem="2WK-zg-mhN" firstAttribute="top" secondItem="Jmc-BI-vLI" secondAttribute="bottom" constant="25" id="Hme-co-QvU"/>
+                            <constraint firstItem="0Nu-pD-1gN" firstAttribute="trailing" secondItem="uLv-gG-04U" secondAttribute="trailing" constant="40" id="QfO-hg-Y8x"/>
+                            <constraint firstItem="Jmc-BI-vLI" firstAttribute="top" secondItem="0Nu-pD-1gN" secondAttribute="top" constant="20" id="eYq-At-0vK"/>
+                            <constraint firstItem="2WK-zg-mhN" firstAttribute="centerX" secondItem="Mu9-xe-g8n" secondAttribute="centerX" id="fZs-gU-79Q"/>
+                            <constraint firstItem="Jmc-BI-vLI" firstAttribute="centerY" secondItem="uLv-gG-04U" secondAttribute="centerY" id="lIX-iB-AnW"/>
+                            <constraint firstItem="uLv-gG-04U" firstAttribute="top" secondItem="0Nu-pD-1gN" secondAttribute="top" constant="20" id="mBG-RL-iSE"/>
+                            <constraint firstItem="Jmc-BI-vLI" firstAttribute="leading" secondItem="0Nu-pD-1gN" secondAttribute="leading" constant="20" id="pZa-52-2Y8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0Nu-pD-1gN"/>
                     </view>
                     <navigationItem key="navigationItem" title="Perfil" id="v8O-nO-fYL"/>
+                    <connections>
+                        <outlet property="emailUser" destination="2WK-zg-mhN" id="VbS-ZX-0px"/>
+                        <outlet property="nameUser" destination="Jmc-BI-vLI" id="xf8-5r-5k1"/>
+                        <outlet property="pictureUser" destination="uLv-gG-04U" id="f0m-KR-z9Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ap8-BX-cTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2310" y="108"/>
+            <point key="canvasLocation" x="2309.5999999999999" y="107.49625187406298"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PWq-P6-5ni">
@@ -248,6 +344,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eW5-3c-1hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="655" y="109"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="jXk-WE-9aj">
+            <objects>
+                <viewControllerPlaceholder id="WOZ-6s-i2a" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5T3-BV-710" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>

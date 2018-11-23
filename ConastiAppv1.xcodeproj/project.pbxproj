@@ -23,6 +23,7 @@
 		A6CF13F32194942B0034F3DF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF13F22194942B0034F3DF /* DashboardViewController.swift */; };
 		A6E19A642195E57B004EF48C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E19A632195E57B004EF48C /* PerfilViewController.swift */; };
 		A6F6D3B0219F17FD006C035D /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6D3AF219F17FD006C035D /* FavoritosViewController.swift */; };
+		A6F6D3B6219F39EE006C035D /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6D3B5219F39EE006C035D /* user.swift */; };
 		B029A0D6746F376D3C9966FD /* Pods_ConastiAppv1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E164FDD2964A76D67E6723 /* Pods_ConastiAppv1.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		A6CF13F22194942B0034F3DF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		A6E19A632195E57B004EF48C /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		A6F6D3AF219F17FD006C035D /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
+		A6F6D3B5219F39EE006C035D /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		D3E164FDD2964A76D67E6723 /* Pods_ConastiAppv1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConastiAppv1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				A64C9A5921949005001E419D /* LaunchScreen.storyboard */,
 				A64C9A5C21949005001E419D /* Info.plist */,
 				A64C9A5421949005001E419D /* ConastiAppv1.xcdatamodeld */,
+				A6F6D3B5219F39EE006C035D /* user.swift */,
 			);
 			path = ConastiAppv1;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -252,6 +256,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -272,6 +277,7 @@
 				A64C9A5021949005001E419D /* ViewController.swift in Sources */,
 				A64C9A4E21949005001E419D /* AppDelegate.swift in Sources */,
 				A6F6D3B0219F17FD006C035D /* FavoritosViewController.swift in Sources */,
+				A6F6D3B6219F39EE006C035D /* user.swift in Sources */,
 				A6CF13F32194942B0034F3DF /* DashboardViewController.swift in Sources */,
 				A6E19A642195E57B004EF48C /* PerfilViewController.swift in Sources */,
 				A6A0E3D821950D400031C4F4 /* BaseViewController.swift in Sources */,
