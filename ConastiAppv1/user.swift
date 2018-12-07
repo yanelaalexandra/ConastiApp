@@ -12,5 +12,7 @@ class User {
     static var nombre = ""
     static var imagenURL = ""
     static var uid = ""
+    static var apellido = ""
+    static var cumpleaños = ""
 }
 

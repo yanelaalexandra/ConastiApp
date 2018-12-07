@@ -12,6 +12,8 @@ import Firebase
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FirebaseAuth
+import Cards
+import Player
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate{
