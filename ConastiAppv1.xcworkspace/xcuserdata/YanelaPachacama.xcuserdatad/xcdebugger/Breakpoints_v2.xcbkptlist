@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConastiAppv1/ViewControllers/DashboardViewController.swift"
+            timestampString = "566355217.264827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "DashboardViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConastiAppv1.DashboardViewController.collectionView.getter : Swift.Optional&lt;__ObjC.UICollectionView&gt;"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/DashboardViewController.swift"
+                  timestampString = "566237863.422577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConastiAppv1.DashboardViewController.collectionView.setter : Swift.Optional&lt;__ObjC.UICollectionView&gt;"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/DashboardViewController.swift"
+                  timestampString = "566237863.430702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConastiAppv1.DashboardViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ConastiAppv1.DashboardViewController"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/DashboardViewController.swift"
+                  timestampString = "566237863.437009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConastiAppv1.DashboardViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ConastiAppv1.DashboardViewController&gt;"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/DashboardViewController.swift"
+                  timestampString = "566237863.440938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConastiAppv1/ViewControllers/ViewController.swift"
+            timestampString = "566320942.044439"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "loginBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__ObjC.FBSDKLoginManagerLoginResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConastiAppv1.ViewController.loginBtn(Any) -&gt; ()"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/ViewController.swift"
+                  timestampString = "566241210.08837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__ObjC.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__ObjC.FBSDKLoginManagerLoginResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConastiAppv1.ViewController.loginBtn(Any) -&gt; ()"
+                  moduleName = "ConastiAppv1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YanelaPachacama/Desktop/Pachacama-Labs/Proyecto-Integrador/ConastiAppv1/ConastiAppv1/ViewControllers/ViewController.swift"
+                  timestampString = "566241210.090245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

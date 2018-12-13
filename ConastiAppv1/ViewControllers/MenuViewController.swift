@@ -46,9 +46,11 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func updateArrayMenuOptions(){
-        arrayMenuOptions.append(["title":"Home", "icon":"HomeIcon"])
-        arrayMenuOptions.append(["title":"Perfil", "icon":"HomeIcon"])
-        arrayMenuOptions.append(["title":"Favoritos", "icon" : "HomeIcon"])
+        arrayMenuOptions.append(["title":"Inicio", "icon":"inicio"])
+        arrayMenuOptions.append(["title":"Favoritos", "icon" : "favNotiEven"])
+        arrayMenuOptions.append(["title":"Eventos", "icon" : "iconEvento"])
+        arrayMenuOptions.append(["title":"Noticias", "icon" : "iconNoti"])
+        arrayMenuOptions.append(["title":"Perfil", "icon":"perfiluser"])
         tblMenuOptions.reloadData()
     }
     
